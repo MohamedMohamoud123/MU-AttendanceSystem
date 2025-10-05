@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b40f9a8ddf8348b699cbca472c6f646e" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.AcademicYear" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Attendance" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Cours" Width="1.5" PointX="8.25" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Department" Width="1.5" PointX="3" PointY="20" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Faculty" Width="1.5" PointX="0.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Role" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Semester" Width="1.5" PointX="6" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Staff" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.StudentCours" Width="1.5" PointX="10.5" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Student" Width="1.5" PointX="5.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.TeacherCours" Width="1.5" PointX="13.5" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.Teacher" Width="1.5" PointX="11.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.User" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Acade__00200768" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Courses__Academi__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Semesters__Acade__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Students__Academ__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Cours__7C4F7684" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Depar__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Facul__7D439ABD" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Semes__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Stude__7A672E12" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Attendanc__Teach__7B5B524B" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Courses__Departm__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Courses__Faculty__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Courses__Semeste__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__StudentCo__Cours__6A30C649" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__TeacherCo__Cours__6FE99F9F" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Departmen__Facul__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__StudentCo__Depar__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Students__Depart__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__TeacherCo__Depar__71D1E811" ManuallyRouted="true" >
+          <ConnectorPoint PointX="4.5" PointY="22.926168619791667" />
+          <ConnectorPoint PointX="14.25" PointY="22.926168619791667" />
+          <ConnectorPoint PointX="14.25" PointY="18.076396484375" />
+        </AssociationConnector>
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__StudentCo__Facul__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Students__Facult__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__TeacherCo__Facul__70DDC3D8" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Users__RoleID__5165187F" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__StudentCo__Semes__6B24EA82" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Students__Semest__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__TeacherCo__Semes__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Staff__UserID__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__StudentCo__Stude__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Students__UserID__5629CD9C" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__TeacherCo__Teach__6EF57B66" ManuallyRouted="false" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK__Teachers__UserID__6383C8BA" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MU_AttendanceSystemDBModel.AttendanceDetail" Width="1.5" PointX="7.5" PointY="10.125" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK_AttendanceDetails_Attendance" />
+        <AssociationConnector Association="MU_AttendanceSystemDBModel.FK_AttendanceDetails_Student" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
